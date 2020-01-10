@@ -1,0 +1,89 @@
+.imageSize {
+    height: 10rem;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar {
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  z-index: 1;
+    }
+}
+
+/* @media screen and (max-width: 768px) {
+    .navTop {
+        visibility: hidden;
+        display:none;
+    }
+    .navBottom {
+        visibility: visible;
+        background-color: red;
+    }
+}
+@media screen and (min-width: 768px) {
+    .navTop {
+        visibility: visible;
+    }
+    .navBottom {
+        visibility: hidden;
+    }
+} */
+
+/* .navbar {
+    background-color: chartreuse;
+} */
+
+.carModif {
+    height: 40vh;
+    /* object-position: 10% 20%;
+    object-fit: fill; */
+}
+
+.toto {
+    /* object-position: 50% 20%;
+    object-fit: cover;
+    max-width: 100%; */
+}
+
+.color {
+    /* background-color: red; */
+}
+
+.navColor {
+    background-color: blue;
+}
+
+.iconColor {
+    /* color: yellow;
+    background-color: yellow; */
+    border-color: rgb(255, 102, 203);
+}
+
+.carousel-inner {
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+}
+
+.billy {
+    text-align: center;
+}
+
+.centrage {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.releve {
+    top: 150px;
+}
